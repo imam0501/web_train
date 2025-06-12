@@ -21,7 +21,7 @@ if tracking_id:
 
     cookies = {
         "TrackingId": payload,
-        "session": "70ipyj4mj7XlFojaO9xMj1cbpoiewWAu" 
+        "session": "ijfHwL6C28D1pDHhUSy0ccWtxwd2Vobwu" 
     }
     print("Đợi xíu xiu")
     response2 = requests.get(url, cookies=cookies)
