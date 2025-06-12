@@ -2,7 +2,7 @@ import requests
 import time
 from bs4 import BeautifulSoup
 
-print("Gửi URL dưới dạng: https://xxxxx.web-security-academy.net/")
+
 url = input("Nhập URL: ").rstrip("/")
 
 response = requests.get(url)
